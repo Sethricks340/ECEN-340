@@ -37,14 +37,9 @@ module addern(input [15:0] sw, output [8:0] led);
 
 endmodule
 
-
 module fulladd(Carryin, x, y, Sum, Carryout);
     input Carryin, x, y;
     output Sum, Carryout;
-    wire w1, w2, w3;
-    xor (w1, x, y);
-    xor (Sum, w1, Carryin);
-    and (w2, x, y);
-    and (w3, w1, Carryin);
-    or  (Carryout, w2, w3); 
+    assign Sum = x ^ y ^ Carryin;
+    assign Carryout = (x&y)|(x&Carryin)|(y&Carryin);
 endmodule

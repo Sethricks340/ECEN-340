@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date             : Wed Oct  1 10:26:05 2025
+| Date             : Wed Oct  1 10:40:09 2025
 | Host             : 25STC151L19 running 64-bit major release  (build 9200)
 | Command          : report_power -file adder8_power_routed.rpt -pb adder8_power_summary_routed.pb -rpx adder8_power_routed.rpx
 | Design           : adder8
