@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/adder8/adder8.runs/synth_1/adder8.tcl"
+  variable script "C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/Week3 - adder8/adder8.runs/synth_1/adder8.tcl"
   variable category "vivado_synth"
 }
 
@@ -64,15 +64,15 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/adder8/adder8.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/adder8/adder8.xpr} [current_project]
+set_property webtalk.parent_dir {C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/Week3 - adder8/adder8.cache/wt} [current_project]
+set_property parent.project_path {C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/Week3 - adder8/adder8.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {c:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/adder8/adder8.cache/ip} [current_project]
+set_property ip_output_repo {c:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/Week3 - adder8/adder8.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib {{C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/adder8/adder8.srcs/sources_1/new/adder_behavioral.v}}
+read_verilog -library xil_defaultlib {{C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/Week3 - adder8/adder8.srcs/sources_1/new/adder_structural.v}}
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -87,7 +87,7 @@ set_property used_in_implementation false [get_files C:/Users/slricks340/Downloa
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental {C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/adder8/adder8.srcs/utils_1/imports/synth_1/adder8.dcp}
+read_checkpoint -auto_incremental -incremental {C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/Week3 - adder8/adder8.srcs/utils_1/imports/synth_1/adder8.dcp}
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

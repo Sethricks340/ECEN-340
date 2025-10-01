@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/adder8/adder8.runs/impl_1/adder8.tcl"
+  variable script "C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/Week3 - adder8/adder8.runs/impl_1/adder8.tcl"
   variable category "vivado_impl"
 }
 
@@ -109,7 +109,7 @@ set rc [catch {
   set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 10  }
   open_checkpoint adder8_routed.dcp
-  set_property webtalk.parent_dir {C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/adder8/adder8.cache/wt} [current_project]
+  set_property webtalk.parent_dir {C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/Week3 - adder8/adder8.cache/wt} [current_project]
 set_property TOP adder8 [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }
