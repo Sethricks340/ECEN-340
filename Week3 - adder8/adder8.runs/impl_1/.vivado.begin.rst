@@ -1,60 +1,10 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="28280" HostCore="20" HostMemory="033775415296">
+    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="11804" HostCore="20" HostMemory="033775415296">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="26260" HostCore="20" HostMemory="033775415296">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="14408" HostCore="20" HostMemory="033775415296">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="27632" HostCore="20" HostMemory="033775415296">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="28032" HostCore="20" HostMemory="033775415296">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="27360" HostCore="20" HostMemory="033775415296">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="288" HostCore="20" HostMemory="033775415296">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="20580" HostCore="20" HostMemory="033775415296">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="29384" HostCore="20" HostMemory="033775415296">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="14792" HostCore="20" HostMemory="033775415296">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="23260" HostCore="20" HostMemory="033775415296">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="24852" HostCore="20" HostMemory="033775415296">
+    <Process Command="vivado.bat" Owner="slricks340" Host="25STC151L19" Pid="3524" HostCore="20" HostMemory="033775415296">
     </Process>
 </ProcessHandle>
