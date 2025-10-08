@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/7_seg_display/7_seg_display.runs/synth_1'
+HD_PWD='C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/Week4 - 7_seg_display/7_seg_display.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
