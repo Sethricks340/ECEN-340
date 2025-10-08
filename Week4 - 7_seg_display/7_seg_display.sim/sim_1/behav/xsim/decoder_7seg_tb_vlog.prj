@@ -1,6 +1,7 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
 "../../../../7_seg_display.srcs/sources_1/new/7seg.v" \
+"../../../../7_seg_display.srcs/sim_1/new/decoder_7seg_tb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"
