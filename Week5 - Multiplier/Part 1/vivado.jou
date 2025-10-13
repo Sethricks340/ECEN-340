@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Oct 13 11:31:03 2025
+# Process ID         : 2032
+# Current directory  : C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/Week5 - Multiplier/Part 1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent27984 C:\Users\slricks340\Desktop\ECEN 340 Seth Ricks Ian Fleming\ECEN-340\Week5 - Multiplier\Part 1\Multiplier.xpr
+# Log file           : C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/Week5 - Multiplier/Part 1/vivado.log
+# Journal file       : C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/Week5 - Multiplier/Part 1\vivado.jou
+# Running On         : 25STC151L19
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 265
+# CPU Frequency      : 2381 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 20
+# Host memory        : 33775 MB
+# Swap memory        : 3145 MB
+# Total Virtual      : 36921 MB
+# Available Virtual  : 22230 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/slricks340/Desktop/ECEN 340 Seth Ricks Ian Fleming/ECEN-340/Week5 - Multiplier/Part 1/Multiplier.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
